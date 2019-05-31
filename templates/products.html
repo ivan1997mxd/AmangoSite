@@ -1,0 +1,191 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    上海艾满高信息科技有限公司
+{% endblock %}
+{% block content %}
+
+    <!--MAIN BANNER AREA START -->
+    <div class="page-banner-area page-service" id="page-banner">
+        <div class="overlay dark-overlay"></div>
+            <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
+                    <div class="banner-content content-padding">
+                        <h1 class="text-white">产品中心</h1>
+                        <p>各行各业都在使用我们的产品</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MAIN HEADER AREA END -->
+
+    <!--  SERVICE BLOCK2 START  -->
+    <section id="service-2" class="section-padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box-2">
+                        <span>01</span>
+                        <h4>ERP<br>企业资源规划系统</h4>
+                        <p>企业资源规划系统（Enterprise Resource Planning）能为企业进行系统的规划</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box-2">
+                        <span>02</span>
+                        <h4>BI<br>商业智能管理系统</h4>
+                        <p>商业智能管理系统（Businsses intelligence system）通过智能化的管理是企业能够更好的进行商业管理</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box-2">
+                        <span>03</span>
+                        <h4>LPMS<br>物流园区管理系统</h4>
+                        <p>物流园区管理系统（logistics park Management System）通过自动化仓库实现大件产品的高效物流作业，实现物资的精确库位和批次管理。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  SERVICE BLOCK2 END  -->
+
+    <!--  SERVICE AREA START  -->
+    <section class="section pt-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-sm-12 col-md-6 mb-4">
+                    <img src="{% static 'assets/img/bg/2-min.jpg' %}" alt="feature bg" class="img-fluid">
+                </div>
+
+                <div class="col-lg-7 pl-4">
+                   <div class="mb-5">
+                        <h3 class="mb-4">AIOT <br>IOT集成解决方案</h3>
+                        <p>我们致力于IOT技术在企业及其物流作业环节的推广应用，掌握主流IOT技术（NB-IOT、LoraWAN等）并拥有自主硬件开发团队</p>
+                    </div>
+
+                    <ul class="about-list">
+                        <li> <h5 class="mb-2"><i class="icofont icofont-check-circled"></i>智能电子纸交互终端</h5>
+                            <p>智能电子纸交互终端在仓库的大面积应用使得仓储无纸化成为可能</p>
+                        </li>
+
+                        <li>
+                            <h5 class="mb-2"><i class="icofont icofont-check-circled"> </i>工业级低功耗智能手表</h5>
+                            <p>采用NB-IOT低功耗技术、采用MTK架构的智能手表，对接WMS系统可用于实现任务分配、提醒、确认、劳动力管理等功能</p>
+                        </li>
+
+                        <li>
+                            <h5 class="mb-2"><i class="icofont icofont-check-circled"> </i>仓库Lora组网技术</h5>
+                            <p>利用lora远距离大范围覆盖技术取代WIFI</p>
+                        </li>
+                        <li>
+                            <h5 class="mb-2"> <i class="icofont icofont-check-circled"> </i>触摸式工业串口物联网终端</h5>
+                            <p>将WMS仓储系统用loRa技术与串口屏进行对接，工作人员可以通过操作串口屏来进行物品操作</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  SERVICE AREA END  -->
+
+    <!--  SERVICE PARTNER START  -->
+    <section id="service-head" class="service-style-two">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-sm-12 m-auto">
+                    <div class="heading text-white text-center">
+                        <h4 class="section-title text-white">FIS 系统</h4>
+                        <p>由于一汽大众产量的快速增加长春一汽国际物流中心与Amango共同探索研究开发出一套能新的FIS系统，新FIS系统FIS接口数据的传输、电报码的解析实现自动化，从而实现节省作业时间、提高配送效率</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  SERVICE PARTNER END  -->
+
+    <!--  SERVICE AREA START  -->
+    <section id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="service-box p-5 rounded mb-4">
+                        <img src="{% static 'assets/img/icon/007-digital-marketing-3.png' %}" alt="service-icon" class="img-fluid">
+                        <h4 class="my-4">自动化接口</h4>
+                        <p>通过同大众FIS电报码接收客户端对接，实现<span>电报码自动接收</span>功能</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="service-box p-5 rounded mb-4">
+                        <img src="{% static 'assets/img/icon/008-digital-marketing-2.png' %}" alt="service-icon" class="img-fluid">
+                        <h4 class="my-4">电报自动解析</h4>
+                        <p>按预定的算法对接收的<span>电报码系统</span>自动进行解析</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="service-box p-5 rounded mb-4">
+                        <img src="{% static 'assets/img/icon/003-task.png' %}" alt="service-icon" class="img-fluid">
+                        <h4 class="my-4">队列管理</h4>
+                        <p>对于等待放置器具的<span>FIS指令按CP5A时间</span>进行排序队列管理</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="service-box p-5 rounded ">
+                        <img src="{% static 'assets/img/icon/010-digital-marketing.png' %}" alt="service-icon" class="img-fluid">
+                        <h4 class="my-4">已处理零件查询</h4>
+                        <p>用户可以查询到所有<span>已处理的数据</span>，可以确认是否数据处理已经完成，没有遗漏</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="service-box p-5 rounded ">
+                        <img src="{% static 'assets/img/icon/006-analytics.png' %}" alt="service-icon" class="img-fluid">
+                        <h4 class="my-4">未处理零件查询</h4>
+                        <p>用户可以通过输入<span>底盘号或者顺序号</span>查询具体零件。如果没有输入，将查询所有的未处理数据</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6">
+                    <div class="service-box p-5 rounded ">
+                        <img src="{% static 'assets/img/icon/004-hiring.png' %}" alt="service-icon" class="img-fluid">
+                        <h4 class="my-4">车序信息查询</h4>
+                        <p>显示的所有已经收到的车序信息,用户可以选择按照<span>顺序号查询</span>，也可以选择按照<span>CP5A时间</span>查询</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  SERVICE AREA END  -->
+
+    <!--  PARTNER START  -->
+    <section id="clients" class="section-padding ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="mb-5">
+                        <h3 class="mb-2">我们的客户</h3>
+                        <p>我们的客户包括来自国际的一线厂商</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-md-3 text-center">
+                    <img src="{% static 'assets/img/clients/client01.png' %}" alt="partner" class="img-fluid">
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3 text-center">
+                    <img src="{% static 'assets/img/clients/client06.png' %}" alt="partner" class="img-fluid">
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3 text-center">
+                    <img src="{% static 'assets/img/clients/client04.png' %}" alt="partner" class="img-fluid">
+                </div>
+                <div class="col-lg-3 col-sm-6 col-md-3 text-center">
+                    <img src="{% static 'assets/img/clients/client05.png' %}" alt="partner" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  PARTNER END  -->
+
+{% endblock %}
